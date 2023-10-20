@@ -12,7 +12,7 @@ const TodoLists: React.FC<TodoListsProps> = ({ tasks }) => {
         <table className="table">
           {/* head */}
           <thead>
-            <tr className="font-bold">
+            <tr className="font-bold text-2xl">
               <th>Tasks</th>
               <th>Actions</th>
             </tr>
